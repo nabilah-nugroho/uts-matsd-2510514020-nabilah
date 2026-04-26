@@ -15,6 +15,7 @@ a = 2;
 b = 0;
 k = 3;
 
+% BAGIAN B
 % rumus pembentukan data toko
 data_toko = zeros(1,7);
 for i = 1:7
@@ -42,3 +43,23 @@ end
 
 fprintf("range            : %.2f\n", r);
 fprintf("standar deviasi  : %.2f\n", s);
+
+%BAGIAN C
+% Diagram batang data_toko
+figure;
+bar(data_toko);
+
+title('Diagram Batang Data Transaksi Toko | NIM: 2510514020');
+xlabel('Hari / Data ke-');
+ylabel('Nilai D_i');
+
+xticks(1:7);
+xticklabels({'D_1','D_2','D_3','D_4','D_5','D_6','D_7'});
+
+grid on;
+
+% Menampilkan nilai di atas batang
+for i = 1:length(data_toko)
+    text(i, data_toko(i) + 0.5, sprintf('%.2f', data_toko(i)), ...
+        'HorizontalAlignment', 'center');
+end
