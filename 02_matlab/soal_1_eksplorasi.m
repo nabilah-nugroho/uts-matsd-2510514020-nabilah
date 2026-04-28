@@ -3,7 +3,7 @@
 % Soal 1 — Eksplorasi Awal dan Profil Data Transaksi 
 % ---------------------------------------------------
 % Nama : Nabilah Nur Aisyah Nugroho
-% NIM : 2510514018
+% NIM : 2510514020
 % Parameter: N=20, a=2, b=0, K=3, theta0=60, alpha=0.001
 % Tanggal: <2026-04-22>
 % =====================================================

@@ -5,7 +5,7 @@
 % Nama : Nabilah Nur Aisyah Nugroho
 % NIM : 2510514018
 % Parameter: N=20, a=2, b=0, K=3, theta0=60, alpha=0.001
-% Tanggal: <2026-04-22>
+% Tanggal: <2026-04-27>
 % =====================================================
 clc; clear; close all;
 
