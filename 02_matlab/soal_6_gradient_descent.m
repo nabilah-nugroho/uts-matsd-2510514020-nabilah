@@ -10,13 +10,6 @@
 
 clc; clear; close all;
 
-fprintf('========================================\n');
-fprintf('UTS Matematika Sains Data - Soal 6\n');
-fprintf('Nama: Nabilah Nur Aisyah Nugroho\n');
-fprintf('NIM : 2510514020\n');
-fprintf('Waktu eksekusi: %s\n', datestr(now, 'yyyy-mm-dd HH:MM:SS'));
-fprintf('========================================\n\n');
-
 %% BAGIAN E
 % Parameter
 alpha = 0.001;
